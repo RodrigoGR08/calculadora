@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Calculadora do Rodrigo</h1>
-    <button onclick="">1</button>
-    <button onclick="">2</button>
-    <button onclick="">3</button>
-    <button onclick="">4</button>
-    <button onclick="">5</button>
-    <button onclick="">6</button>
-    <button onclick="">7</button>
-    <button onclick="">8</button>
-    <button onclick="">9</button>
-    <button onclick="">0</button>
-    <button onclick="">+</button>
-    <button onclick="">-</button>
-    <button onclick="">*</button>
-    <button onclick="">/</button>
-    <button onclick="">=</button>
+    <button onclick="AdicionarNumero(1)">1</button>
+    <button onclick="AdicionarNumero(2)">2</button>
+    <button onclick="AdicionarNumero(3)">3</button>
+    <button onclick="AdicionarNumero(4)">4</button>
+    <button onclick="AdicionarNumero(5)">5</button>
+    <button onclick="AdicionarNumero(6)">6</button>
+    <button onclick="AdicionarNumero(7)">7</button>
+    <button onclick="AdicionarNumero(8)">8</button>
+    <button onclick="AdicionarNumero(9)">9</button>
+    <button onclick="AdicionarNumero(0)">0</button>
+    <button onclick="Somar()">+</button>
+    <button onclick="Subtrair()">-</button>
+    <button onclick="Multiplicar()">*</button>
+    <button onclick="Dividir()">/</button>
+    <button onclick="AtualizarResultado()">=</button>
     <form>
-        <label>RESULTADO</label>
+        <label id="resultado"></label>
     </form>
 
 </body>
